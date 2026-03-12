@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+
 import { useForm, router } from "@inertiajs/react"; 
 import GuardLayout from "@/layouts/GuardLayout";
 import QRCode from "react-qr-code";
