@@ -18,7 +18,7 @@ return new class extends Migration
         
         $table->string('purpose');
         $table->string('person_to_visit');
-        $table->string('qr_code')->unique();
+        $table->string('qr_code')->nullable();
         $table->timestamp('time_in')->nullable();
         $table->timestamp('time_out')->nullable();
         $table->string('status')->default('Inside');
